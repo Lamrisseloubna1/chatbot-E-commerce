@@ -1,0 +1,524 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "Is anyone there?",
+          "Hello",
+          "Good day",
+          "Greetings",
+          "Hi there",
+          "Hey, how are you?",
+          "Hello, what's up?",
+          "Good morning"
+        ],
+        "responses": [
+          "Hey there! Welcome to our IoT store. How can I assist you today?",
+          "Hello! Welcome to our IoT shop. How can I help you?",
+          "Hi there! Welcome to our IoT store. How can I assist you today?",
+          "Hi there! Welcome to our IoT shop. How can I help you?",
+          "Greetings! How may I help you today?",
+          "Hello! How can I assist you with your IoT needs?",
+          "Hi! What can I do for you today?",
+          "Hey there! How can I assist you with our range of IoT products?",
+          "Hello! How may I help you today?",
+          "Good morning! Welcome to our IoT store. How can I assist you?"
+        ]
+      },
+      {
+        "tag": "personal",
+        "patterns": [
+          "How are you?",
+          "How are you doing?",
+          "How is your day?",
+          "How's everything?",
+          "How have you been?",
+          "How's it going?",
+          "How are things?",
+          "How's your day been?",
+          "What's up?",
+          "What's new?"
+        ],
+        "responses": [
+          "I'm just a virtual assistant, but I'm here to help you with all your IoT needs!",
+          "I'm doing well, thank you for asking. How can I assist you today?",
+          "Everything's good on my end. How can I assist you?",
+          "I'm doing great! How about you?",
+          "I'm here and ready to assist you with any questions you have.",
+          "I'm doing fine, thanks for asking. How can I help you today?",
+          "Things are good here, thanks. How may I assist you?",
+          "I'm doing well, thank you. How may I assist you today?",
+          "I'm doing fine. How can I assist you today?",
+          "I'm here to help. What can I do for you?"
+        ]
+      },
+      {
+        "tag": "user response",
+        "patterns": [
+          "I'm good",
+          "Im good",
+          "Im doing good",
+          "I am good",
+          "I am okay",
+          "I'm doing well",
+          "I'm fine",
+          "I'm alright",
+          "I'm great",
+          "I'm fantastic"
+        ],
+        "responses": [
+          "Great to hear you're doing well!",
+          "Awesome!",
+          "That's wonderful!",
+          "Glad to hear that!",
+          "Excellent!",
+          "Fantastic!",
+          "Good to know!",
+          "Perfect!",
+          "Keep it up!",
+          "Wonderful news!"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Bye",
+          "See you later",
+          "Goodbye",
+          "Take care",
+          "See you soon",
+          "Catch you later",
+          "Until next time",
+          "Farewell",
+          "Have a good one",
+          "So long"
+        ],
+        "responses": [
+          "Goodbye! If you have any more questions, feel free to ask.",
+          "See you later! Have a great day.",
+          "Take care! Feel free to come back anytime.",
+          "Goodbye! It was nice chatting with you.",
+          "See you soon! Let me know if you need any further assistance.",
+          "Catch you later! Have a wonderful day.",
+          "Until next time! Don't hesitate to reach out if you need help.",
+          "Farewell! If you have any more questions, don't hesitate to ask.",
+          "Have a good one! Let me know if there's anything else I can do for you.",
+          "So long! Feel free to return whenever you like."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": [
+          "Thanks",
+          "Thank you",
+          "That's helpful",
+          "Thank's a lot!",
+          "thx",
+          "thnks",
+          "Appreciate it",
+          "Thanks a bunch",
+          "Thank you very much",
+          "Much appreciated"
+        ],
+        "responses": [
+          "You're welcome!",
+          "Glad I could help!",
+          "Anytime!",
+          "My pleasure!",
+          "Happy to assist!",
+          "You bet!",
+          "No problem!",
+          "Not a problem at all!",
+          "Don't mention it!",
+          "Always here to help!"
+        ]
+      },
+      {
+        "tag": "items",
+        "patterns": [
+          "Which items do you have?",
+          "What kinds of items are there?",
+          "What do you sell?",
+          "What do you offer?",
+          "What can I buy?",
+          "Show me your products",
+          "What's in stock?",
+          "Can you show me your inventory?",
+          "What are your products?",
+          "Tell me about your offerings"
+        ],
+        "responses": [
+          "Explore our range of IoT products including smart home devices, smart irrigation systems, industrial IoT solutions, and healthcare IoT devices."
+        ]
+      },
+      {
+        "tag": "payments",
+        "patterns": [
+          "Do you take credit cards?",
+          "Do you accept Mastercard?",
+          "Can I pay with Cash?",
+          "Are you cash only?",
+          "What are your payment methods?",
+          "How do I pay?",
+          "Can I use PayPal?",
+          "Do you accept Apple Pay?",
+          "Can I pay online?",
+          "Can I pay upon delivery?"
+        ],
+        "responses": [
+          "We accept various payment methods including credit cards, debit cards, PayPal, and cash on delivery."
+        ]
+      },
+      {
+        "tag": "track",
+        "patterns": [
+          "How can I track my order", 
+          "I want to track my order", 
+          "Can I track my order", 
+          "Track order",
+          "Where's my package?",
+          "How do I track my package?",
+          "What's the status of my order?",
+          "Can you give me order updates?",
+          "Is there a way to track my delivery?",
+          "How do I know when my order will arrive?"
+        ],
+        "responses": [
+          "You can easily track your order by logging into your account and navigating to the 'Order History' section. From there, you can view the status and tracking information for your order."
+        ]
+      },
+      {
+        "tag": "delivery",
+        "patterns": [
+          "How long does delivery take?",
+          "How long does shipping take?",
+          "Please Tell me about my delivery",
+          "When do I get my delivery?",
+          "Why is my order not delivered yet",
+          "What's the delivery time?",
+          "When will my order arrive?",
+          "Why is my delivery delayed?",
+          "How soon can I expect my package?",
+          "Do you offer express shipping?"
+        ],
+        "responses": [
+          "Delivery typically takes 2-4 business days, but it may vary depending on your location and shipping method. You can track your order for real-time updates on delivery status."
+        ]
+      },
+      {
+        "tag": "confirm",
+        "patterns": [
+          "My payment was processed successfully but I didn't get any order confirmation. What should I do?",
+          "Payment was completed but no confirmation",
+          "Order was not confirmed",
+          "Money deducted but order is not confirmed",
+          "How do I confirm my order?",
+          "How long does it take to confirm an order?",
+          "I haven't received an order confirmation yet",
+          "Payment went through but no confirmation email",
+          "Confirmation email not received",
+          "How can I verify my order?"
+        ],
+        "responses": [
+          "Upon successful payment, you should receive an order confirmation via email. If you haven't received it, please check your spam folder or contact our customer support team for assistance."
+        ]
+      },
+      {
+        "tag": "delay",
+        "patterns": [
+          "Why is my order delayed? ",
+          "Did my order get delayed?",
+          "Why is my order not delivered yet?",
+          "When do I get my delivery?",
+          "What's causing the delay?",
+          "Is there a delay in my shipment?",
+          "Can you provide more information on the delay?",
+          "My package hasn't arrived yet",
+          "Where's my order?",
+          "Why hasn't my order shipped yet?"
+        ],
+        "responses": [
+          "We apologize for any delays in delivery. Delivery times may vary depending on factors such as product availability, shipping location, and courier delays. You can track your order for real-time updates on delivery status."
+        ]
+      },
+      {
+        "tag": "reasons",
+        "patterns": [
+          "Common reasons for delivery delay",
+          "common reasons for delivery delay",
+          "reasons for delay",
+          "delivery delay",
+          "Why is my order taking so long?",
+          "What are the usual reasons for shipping delays?",
+          "Why is my package not moving?",
+          "What causes delivery delays?",
+          "Can you explain why my order is delayed?",
+          "What are the most common reasons for late deliveries?"
+        ],
+        "responses": [
+          "Common reasons for delivery delays include weather conditions, transportation issues, customs delays, and high order volumes during peak seasons. However, we strive to deliver your orders as quickly as possible."
+        ]
+      },
+      {
+        "tag": "more",
+        "patterns": [
+          "Need more help",
+          "help me more",
+          "can I talk to an agent",
+          "can I call customer service",
+          "customer support number",
+          "how to contact customer service",
+          "customer service number",
+          "contact number for help",
+          "helpline number",
+          "How to become a seller",
+          "How to contact a seller"
+        ],
+        "responses": [
+          "For further assistance, you can contact our customer support team via phone, email, or live chat on our website. Feel free to reach out anytime!"
+        ]
+      },
+      {
+        "tag": "cancel",
+        "patterns": [
+          "Can I cancel my order?",
+          "Why is my order cancelled?",
+          "How do I can cancel my order",
+          "Can I cancel an order",
+          "Is there a way to cancel my order?",
+          "What's the cancellation policy?",
+          "Can I get a refund if I cancel my order?",
+          "Is it possible to cancel my order after payment?",
+          "How do I cancel an order I just placed?",
+          "Can you help me cancel my order?"
+        ],
+        "responses": [
+          "Orders can only be cancelled within 7 days of placement. Digital goods do not qualify for refunds. Please contact our customer support team for assistance with order cancellations."
+        ]
+      },
+      {
+        "tag": "refund",
+        "patterns": [
+          "Can I refund an item.",
+          "I want to refund an item",
+          "can I refund my order",
+          "Are refunds available",
+          "How do I request a refund?",
+          "What's your refund policy?",
+          "Do you offer refunds?",
+          "Can I get my money back?",
+          "Is there a way to return my purchase for a refund?",
+          "How long does it take to process a refund?"
+        ],
+        "responses": [
+          "Refunds can only be issued within 7 days of placement. Digital goods do not qualify for refunds. Please refer to our refund policy or contact our customer support team for assistance with refunds."
+        ]
+      },
+      {
+        "tag": "refund status",
+        "patterns": [
+          "Why is the status Refunded when it's not credited?",
+          "No refund even though status is refunded",
+          "No refund when status says refunded",
+          "I did not receive my refund money",
+          "Refund money not received",
+          "Where's my refund?",
+          "When will I get my refund?",
+          "Refund status",
+          "Has my refund been processed?",
+          "I haven't received my money back yet"
+        ],
+        "responses": [
+          "Please be patient as refunds may take up to 30 days to be processed and credited to your account. If you haven't received it after this period, please contact our customer support team for assistance."
+        ]
+      },
+      {
+        "tag": "return",
+        "patterns": [
+          "How long do return items take",
+          "When will my items be returned",
+          "When can I get a refund for return items?",
+          "Are refunds available for return?",
+          "What's the return process?",
+          "How do I return an item?",
+          "Can I exchange my purchase?",
+          "What's your exchange policy?",
+          "Do you accept returns?",
+          "What happens after I return my item?"
+        ],
+        "responses": [
+          "Returns typically take 6 to 10 business days to process. Once we've received and inspected the returned items, we'll initiate the refund process. Refunds can take 1-2 business days for Daraz wallet refunds and 2-10 business days for bank or card refunds."
+        ]
+      },
+      {
+        "tag": "withdraw refunds",
+        "patterns": [
+          "How to withdraw refunds from wallet?",
+          "Withdraw funds",
+          "Can I withdraw refunds",
+          "How long does it take to withdraw funds?",
+          "What's the process for withdrawing funds?",
+          "Is there a fee for withdrawing funds?",
+          "Can I transfer my refunds to my bank account?",
+          "Do I need to provide any documents to withdraw funds?",
+          "Can I withdraw partial funds from my wallet?",
+          "Can I use my wallet balance for purchases?"
+        ],
+        "responses": [
+          "Withdrawing funds from your wallet is easy. Simply log in to your account, go to the wallet section, and follow the instructions to withdraw funds to your bank account. It usually takes 2-3 business days for the funds to be transferred."
+        ]
+      },
+      {
+        "tag": "order status",
+        "patterns": [
+          "What is my order status",
+          "I want to know my return status",
+          "How to return status",
+          "How do I check my order status?",
+          "Where can I find my order status?",
+          "Can you provide updates on my order?",
+          "I'm curious about my order status",
+          "How do I track my order status?",
+          "What's the status of my recent order?",
+          "I need to check the status of my order"
+        ],
+        "responses": [
+          "You can easily check your order status by logging into your account and navigating to the 'Order History' section. From there, you can view the status and tracking information for your order."
+        ]
+      },
+      {
+        "tag": "use voucher",
+        "patterns": [
+          "How to use a voucher?",
+          "Can I use a voucher?",
+          "How to apply a voucher?",
+          "Can you help me apply a voucher?",
+          "Where do I enter my voucher code?",
+          "Is there a place to redeem vouchers?",
+          "Can I redeem my voucher online?",
+          "Can I combine vouchers?",
+          "How do I activate my voucher?",
+          "Is my voucher still valid?"
+        ],
+        "responses": [
+          "To use a voucher, simply enter the voucher code during the checkout process, and the discount will be applied to your order."
+        ]
+      },
+      {
+        "tag": "profile info",
+        "patterns": [
+          "How can I change my profile information",
+          "I want to change my password",
+          "I want to change my phone number",
+          "I want to change my address",
+          "I want to Reset my password",
+          "I want to delete my account",
+          "delete my account",
+          "How do I update my profile details?",
+          "Can I edit my account information?",
+          "What's the process for changing my password?"
+        ],
+        "responses": [
+          "You can easily update your profile information by logging into your account and navigating to the 'Account Settings' section. From there, you can edit your personal details, change your password, update your address, and manage other account settings."
+        ]
+      },
+      {
+        "tag": "mobile app",
+        "patterns": [
+          "Can I download a mobile app for this?",
+          "Mobile app",
+          "Download mobile app",
+          "Is there an app for your store?",
+          "Where can I find your mobile app?",
+          "Do you have a smartphone app?",
+          "Can I shop using the mobile app?",
+          "How do I download your app?",
+          "What platforms is your app available on?",
+          "Is your app available for iOS and Android?"
+        ],
+        "responses": [
+          "Yes, you can download our mobile app from both the App Store for iOS devices and Google Play Store for Android devices. Enjoy shopping on the go!"
+        ]
+      },
+  
+      {
+        "tag": "smart_home",
+        "patterns": [
+          "What smart home devices do you offer?",
+          "Can you show me your smart home products?",
+          "Tell me about your smart home gadgets",
+          "Which smart home appliances are available?",
+          "Do you sell smart thermostats?",
+          "Show me smart lighting options",
+          "I'm interested in home automation products",
+          "What are the benefits of smart home technology?",
+          "How can I make my home smarter?",
+          "Can you recommend some smart home devices?",
+          "What's the latest in smart home innovation?"
+        ],
+        "responses": [
+          "Our smart home range includes smart thermostats, smart lighting systems, smart security cameras, smart locks, smart plugs, and more. These devices offer convenience, energy efficiency, and enhanced security for your home."
+        ]
+      },
+      {
+        "tag": "smart_irrigation",
+        "patterns": [
+          "Tell me about your smart irrigation systems",
+          "Do you offer smart sprinkler controllers?",
+          "How can I automate my irrigation system?",
+          "Which smart irrigation products do you recommend?",
+          "Can your irrigation systems save water?",
+          "What are the benefits of smart watering systems?",
+          "I'm looking for efficient irrigation solutions",
+          "Show me options for smart gardening",
+          "How do smart sprinklers work?",
+          "Do you have drip irrigation systems?",
+          "What's the difference between traditional and smart irrigation?"
+        ],
+        "responses": [
+          "Our smart irrigation systems enable efficient watering based on weather conditions, soil moisture levels, and plant needs. They help conserve water, save time, and promote healthier plants by delivering the right amount of water at the right time."
+        ]
+      },
+      {
+        "tag": "industrial_iot",
+        "patterns": [
+          "Tell me about your industrial IoT solutions",
+          "Do you provide IoT solutions for factories?",
+          "Can you automate industrial processes?",
+          "Which industries can benefit from IoT?",
+          "How can IoT improve manufacturing?",
+          "What are the advantages of industrial IoT?",
+          "I'm interested in IoT for industrial automation",
+          "Show me examples of industrial IoT applications",
+          "Do you offer predictive maintenance solutions?",
+          "Can IoT optimize supply chain management?",
+          "What role does IoT play in Industry 4.0?"
+        ],
+        "responses": [
+          "Our industrial IoT solutions leverage sensor data, analytics, and automation to optimize manufacturing processes, enhance productivity, reduce downtime, and enable predictive maintenance. They are tailored to various industries including manufacturing, logistics, energy, and more."
+        ]
+      },
+      {
+        "tag": "healthcare_iot",
+        "patterns": [
+          "What healthcare IoT devices do you offer?",
+          "Can you show me IoT solutions for healthcare?",
+          "Tell me about remote patient monitoring",
+          "How can IoT improve healthcare outcomes?",
+          "Do you have wearable health trackers?",
+          "Show me examples of healthcare IoT applications",
+          "I'm interested in IoT for medical facilities",
+          "Can IoT enhance telemedicine?",
+          "What are the benefits of connected medical devices?",
+          "Do you offer IoT solutions for elder care?",
+          "How does IoT contribute to personalized medicine?"
+        ],
+        "responses": [
+          "Our healthcare IoT solutions include remote patient monitoring devices, wearable health trackers, smart medical sensors, and telemedicine platforms. These technologies enable real-time health monitoring, early detection of health issues, and personalized care delivery, leading to improved patient outcomes."
+        ]
+      }
+    ]
+  }
+  
